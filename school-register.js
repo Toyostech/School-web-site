@@ -23,6 +23,7 @@ faqs.forEach(faq => {
     })
 })
 
+
 // show/hide nav mane
 const menu = document.querySelector(".nav__menu")
 const menuBtn = document.querySelector("#open-menu-btn")
