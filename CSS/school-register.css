@@ -464,7 +464,7 @@ footer ul li a:hover {
     /*====navbar section==========*/
 
     nav button {
-        display: inline-block;
+        display: none;
         background: transparent;
         font-size: 1.8rem;
         color: var(--color-white);
