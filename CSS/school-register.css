@@ -464,7 +464,7 @@ footer ul li a:hover {
     /*====navbar section==========*/
 
     nav button {
-        display: none;
+        display: inline-block;
         background: transparent;
         font-size: 1.8rem;
         color: var(--color-white);
@@ -554,14 +554,18 @@ footer ul li a:hover {
     }
 
     .categories__container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr ;
         gap: 3rem;
 
     }
 
     .categories__left {
         margin-right: 0;
+       
 
+    }
+    .categories__rigth{
+        grid-template-columns: 1fr 1fr;
     }
 
     /*====POPULAR COURSE SECTION==========*/
@@ -570,7 +574,7 @@ footer ul li a:hover {
     }
 
     .courses__container {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 
 
@@ -619,14 +623,15 @@ footer ul li a:hover {
     }
 
     /*====categories SECTION==========*/
-    .cagategories__left {
+    .cagategories__rigth {
         grid-template-columns: 1fr 1fr;
         gap: 0.7rem;
 
     }
+    
 
     .category {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         padding: 1rem;
         border-radius: 1rem;
     }
